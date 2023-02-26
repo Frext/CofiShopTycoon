@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2be7990437c0e64c9109def30e4153d
+guid: a095af871810f0142adbb604b61b452b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
@@ -17,37 +17,27 @@ ModelImporter:
     second: //RootNode
   - first:
       43: 4300000
-    second: Sidewalk_09
+    second: Sidewalk_12
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SideWalk.008
-    second: {fileID: 2100000, guid: 9e064400c17b981479965683eef7cc83, type: 2}
+      name: SideWalk.011
+    second: {fileID: 2100000, guid: 20ced098d893b4b40ab17acb5cc34f78, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SideWalk.009
+      name: SideWalk.013
     second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Sideway.008
-    second: {fileID: 2100000, guid: ec95d8bb51fde2641baa918aed8e1a23, type: 2}
+      name: Sideway.011
+    second: {fileID: 2100000, guid: d3ecda50a276e9a4e8349ac56778a8e2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Sideway.009
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Street.008
-    second: {fileID: 2100000, guid: 8153d9f17857bf94a8136cf9e2531547, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Street.009
+      name: Sideway.013
     second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
   materials:
     materialImportMode: 1
