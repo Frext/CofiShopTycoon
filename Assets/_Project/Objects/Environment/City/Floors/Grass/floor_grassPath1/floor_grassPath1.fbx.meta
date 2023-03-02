@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 09154e56d80caab4a88063d4853c1b11
+guid: 82f4eb25e074d5046be961abf9216a71
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
@@ -17,7 +17,7 @@ ModelImporter:
     second: //RootNode
   - first:
       43: 4300000
-    second: Way_01
+    second: Way_02
   externalObjects:
   - first:
       type: UnityEngine:Material
