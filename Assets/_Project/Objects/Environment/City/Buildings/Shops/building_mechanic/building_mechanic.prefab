@@ -197,7 +197,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1658771983625230, guid: 818bf11bc935c8d4f9066f522aac417b, type: 3}
       propertyPath: m_Name
-      value: prop_signMechanic (1)
+      value: prop_signMechanic
       objectReference: {fileID: 0}
     - target: {fileID: 4038716849558988, guid: 818bf11bc935c8d4f9066f522aac417b, type: 3}
       propertyPath: m_RootOrder
