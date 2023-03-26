@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2
   m_IsActive: 1
 --- !u!4 &4826099665648010
 Transform:
@@ -140,6 +140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_symbolBank
       objectReference: {fileID: 0}
+    - target: {fileID: 1091416861932012, guid: c41f6c84af0ee134687eb58c6955c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4613131010902594, guid: c41f6c84af0ee134687eb58c6955c02e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -214,6 +218,10 @@ PrefabInstance:
     - target: {fileID: 1272271882287062, guid: d672d914d7e78fa44ab84f6ab849f123, type: 3}
       propertyPath: m_Name
       value: prop_atm
+      objectReference: {fileID: 0}
+    - target: {fileID: 1272271882287062, guid: d672d914d7e78fa44ab84f6ab849f123, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4529547751229238, guid: d672d914d7e78fa44ab84f6ab849f123, type: 3}
       propertyPath: m_RootOrder

@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2
   m_IsActive: 1
 --- !u!4 &1265986722613119276
 Transform:
@@ -45,6 +45,10 @@ PrefabInstance:
     - target: {fileID: 1416373601309472, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
       propertyPath: m_Name
       value: floor_pedestrianCrossing
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4953652439784952, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
       propertyPath: m_RootOrder
@@ -109,6 +113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_pedestrianCrossing
       objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4953652439784952, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -172,6 +180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_pedestrianCrossing
       objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4953652439784952, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -234,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 1416373601309472, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
       propertyPath: m_Name
       value: floor_pedestrianCrossing
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416373601309472, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4953652439784952, guid: 6d16d7d8d1c041245b1465e770327f87, type: 3}
       propertyPath: m_RootOrder

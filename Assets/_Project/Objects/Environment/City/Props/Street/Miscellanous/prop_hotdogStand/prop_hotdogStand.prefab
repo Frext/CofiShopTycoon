@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2
   m_IsActive: 1
 --- !u!4 &4857008648702526
 Transform:
@@ -113,7 +113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2
   m_IsActive: 1
 --- !u!4 &178726834970887191
 Transform:
@@ -147,7 +147,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2
   m_IsActive: 1
 --- !u!4 &8498213858817414949
 Transform:
@@ -191,7 +191,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2
   m_IsActive: 1
 --- !u!4 &1738387702507736116
 Transform:
@@ -240,7 +240,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2
   m_IsActive: 1
 --- !u!4 &963431074561285982
 Transform:
@@ -273,6 +273,10 @@ PrefabInstance:
     - target: {fileID: 1034833739128694, guid: 6c79895a587cdce42adf748bc065cbcf, type: 3}
       propertyPath: m_Name
       value: prop_mayonnaise
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034833739128694, guid: 6c79895a587cdce42adf748bc065cbcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4566827672246302, guid: 6c79895a587cdce42adf748bc065cbcf, type: 3}
       propertyPath: m_RootOrder
@@ -337,6 +341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -399,6 +407,10 @@ PrefabInstance:
     - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_Name
       value: prop_hotdog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
@@ -463,6 +475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_mayonnaise
       objectReference: {fileID: 0}
+    - target: {fileID: 1034833739128694, guid: 6c79895a587cdce42adf748bc065cbcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4566827672246302, guid: 6c79895a587cdce42adf748bc065cbcf, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -526,6 +542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -588,6 +608,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -664,6 +688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_glassCola
       objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -738,6 +766,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -814,6 +846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -876,6 +912,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -952,6 +992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_glassCola
       objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1027,6 +1071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1089,6 +1137,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -1165,6 +1217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_glassCola
       objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1239,6 +1295,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -1315,6 +1375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1377,6 +1441,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -1453,6 +1521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_ketchup
       objectReference: {fileID: 0}
+    - target: {fileID: 1620823866523042, guid: 3d873c57c94e76344806b885752325f1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4328102105405886, guid: 3d873c57c94e76344806b885752325f1, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1516,6 +1588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_mayonnaise
       objectReference: {fileID: 0}
+    - target: {fileID: 1034833739128694, guid: 6c79895a587cdce42adf748bc065cbcf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4566827672246302, guid: 6c79895a587cdce42adf748bc065cbcf, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1578,6 +1654,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -1654,6 +1734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1716,6 +1800,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -1792,6 +1880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_glassCola
       objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1866,6 +1958,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -1942,6 +2038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_glassCola
       objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2016,6 +2116,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -2092,6 +2196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2154,6 +2262,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -2230,6 +2342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2292,6 +2408,10 @@ PrefabInstance:
     - target: {fileID: 1620823866523042, guid: 3d873c57c94e76344806b885752325f1, type: 3}
       propertyPath: m_Name
       value: prop_ketchup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620823866523042, guid: 3d873c57c94e76344806b885752325f1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4328102105405886, guid: 3d873c57c94e76344806b885752325f1, type: 3}
       propertyPath: m_RootOrder
@@ -2356,6 +2476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2418,6 +2542,10 @@ PrefabInstance:
     - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_Name
       value: prop_hotdog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
@@ -2482,6 +2610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2545,6 +2677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_hotdog
       objectReference: {fileID: 0}
+    - target: {fileID: 1723327719891760, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4432409121194468, guid: 14f11a98552d75d46a3f8ff56ddf6358, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2607,6 +2743,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
@@ -2683,6 +2823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_ketchup
       objectReference: {fileID: 0}
+    - target: {fileID: 1620823866523042, guid: 3d873c57c94e76344806b885752325f1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4328102105405886, guid: 3d873c57c94e76344806b885752325f1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2745,6 +2889,10 @@ PrefabInstance:
     - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_Name
       value: prop_glassCola
+      objectReference: {fileID: 0}
+    - target: {fileID: 1049164539221966, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4849569113049662, guid: 14dd6ea93ed40204e84f16442a18f62d, type: 3}
       propertyPath: m_RootOrder
