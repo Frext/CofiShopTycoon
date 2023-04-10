@@ -28,10 +28,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2900769417579291932}
-  - {fileID: 2909226999128894688}
   - {fileID: 2909030819667738770}
   - {fileID: 2909030820105494312}
+  - {fileID: 2900769417579291932}
+  - {fileID: 2909226999128894688}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46,17 +46,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_sideway_2m
       objectReference: {fileID: 0}
-    - target: {fileID: 1442747450203514, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0000019073484
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -113,13 +109,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_sideway_2m
       objectReference: {fileID: 0}
-    - target: {fileID: 1442747450203514, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -127,11 +119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000000037252903
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.000002018593
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -180,13 +172,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_sideway_curvePoint
       objectReference: {fileID: 0}
-    - target: {fileID: 1893114798651238, guid: 95a48e6cf2199094182018aac1092bf9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4327670655549164, guid: 95a48e6cf2199094182018aac1092bf9, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4327670655549164, guid: 95a48e6cf2199094182018aac1092bf9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -247,25 +235,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_sideway_curved1_road_2m
       objectReference: {fileID: 0}
-    - target: {fileID: 1138070732147832, guid: e3b82c46c3c51424182ec8f3fae8971a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4894056622597038, guid: e3b82c46c3c51424182ec8f3fae8971a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4894056622597038, guid: e3b82c46c3c51424182ec8f3fae8971a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.9999981
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4894056622597038, guid: e3b82c46c3c51424182ec8f3fae8971a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000023841858
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4894056622597038, guid: e3b82c46c3c51424182ec8f3fae8971a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.0000021
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4894056622597038, guid: e3b82c46c3c51424182ec8f3fae8971a, type: 3}
       propertyPath: m_LocalRotation.w
