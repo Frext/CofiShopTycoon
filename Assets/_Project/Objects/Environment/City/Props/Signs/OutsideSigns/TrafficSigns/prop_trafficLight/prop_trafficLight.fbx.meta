@@ -23,37 +23,37 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: light  2 c
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
+    second: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: light 1 a
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
+    second: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: light 1 b
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
+    second: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: light 2 a_
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
+    second: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: light 2 b
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
+    second: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: light 3 a
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
+    second: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: traffic light main
-    second: {fileID: 2100000, guid: cbf1dfd93b433164baefe14966894c73, type: 2}
+    second: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
