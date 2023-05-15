@@ -11,14 +11,14 @@ GameObject:
   - component: {fileID: 4379673244704792}
   - component: {fileID: 6495300616529386095}
   - component: {fileID: 6487605119375034511}
-  - component: {fileID: 6535589294731288809}
   - component: {fileID: 2446859790201591784}
+  - component: {fileID: 4802330477832441430}
   m_Layer: 0
   m_Name: prop_tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &4379673244704792
 Transform:
@@ -86,19 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6535589294731288809
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276862051916332}
-  m_Material: {fileID: 13400000, guid: cbf0f558e3a621246babc8014b336d42, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0020948427, y: 0.0022101523, z: 0.031332426}
-  m_Center: {x: -0.00011703432, y: -0.000060897695, z: 0.015658293}
 --- !u!205 &2446859790201591784
 LODGroup:
   m_ObjectHideFlags: 0
@@ -126,3 +113,17 @@ LODGroup:
     renderers:
     - renderer: {fileID: 6487605119375034511}
   m_Enabled: 1
+--- !u!136 &4802330477832441430
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276862051916332}
+  m_Material: {fileID: 13400000, guid: cbf0f558e3a621246babc8014b336d42, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14046077
+  m_Height: 2.8181088
+  m_Direction: 1
+  m_Center: {x: 0.016564384, y: 1.4082495, z: 0.004063487}

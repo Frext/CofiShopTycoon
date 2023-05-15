@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 4330603509456850}
   - component: {fileID: 5461206248161975704}
   - component: {fileID: 5469830948096073400}
+  - component: {fileID: 5617936492406692564}
   m_Layer: 0
   m_Name: prop_colaVendingMachine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &4330603509456850
 Transform:
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5617936492406692564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721008042060176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0091945445, y: 0.0128969615, z: 0.020000005}
+  m_Center: {x: 0.0036082899, y: 0.0032348454, z: 0.010000002}

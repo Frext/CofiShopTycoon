@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &6810666850495814800
 Transform:
@@ -235,6 +235,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: floor_sideway_curved1_stone_2m
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124817778347147520, guid: 1d0eaa5e83ce3664099d7b18fe041a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8130209775197695702, guid: 1d0eaa5e83ce3664099d7b18fe041a73,
         type: 3}
