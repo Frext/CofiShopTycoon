@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4277748021342550870}
   m_Layer: 0
   m_Name: building_bank
-  m_TagString: Untagged
+  m_TagString: TimeAffectedLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 18

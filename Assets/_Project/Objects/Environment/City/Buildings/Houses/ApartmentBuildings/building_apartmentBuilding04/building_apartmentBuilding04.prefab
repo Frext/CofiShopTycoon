@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 919082686184838994}
   m_Layer: 0
   m_Name: building_apartmentBuilding04
-  m_TagString: Untagged
+  m_TagString: TimeAffectedLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 18

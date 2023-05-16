@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4505779924298540742}
   m_Layer: 0
   m_Name: building_patisseire
-  m_TagString: Untagged
+  m_TagString: TimeAffectedLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 18

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1494466011756089968}
   m_Layer: 0
   m_Name: building_gasStation
-  m_TagString: Untagged
+  m_TagString: TimeAffectedLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 18

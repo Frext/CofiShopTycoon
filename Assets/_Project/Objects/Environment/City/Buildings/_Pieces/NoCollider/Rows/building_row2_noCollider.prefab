@@ -82,6 +82,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding02
       objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -145,6 +149,10 @@ PrefabInstance:
     - target: {fileID: 1355464884281048, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355464884281048, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4917875486408044, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
       propertyPath: m_RootOrder
@@ -222,6 +230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding03
       objectReference: {fileID: 0}
+    - target: {fileID: 1378370071209536, guid: 8948448374cc0c84eb4d08134120a4c4, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4917032449352002, guid: 8948448374cc0c84eb4d08134120a4c4, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -294,6 +306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding02
       objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -358,6 +374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding02
       objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -421,6 +441,10 @@ PrefabInstance:
     - target: {fileID: 1785044199738478, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785044199738478, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4571776215605590, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
       propertyPath: m_RootOrder
@@ -499,6 +523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding08
       objectReference: {fileID: 0}
+    - target: {fileID: 1355464884281048, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4917875486408044, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -575,6 +603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartment5
       objectReference: {fileID: 0}
+    - target: {fileID: 1444809901064490, guid: 303e45e96786f544880b567dbb7e33a3, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4397089938149152, guid: 303e45e96786f544880b567dbb7e33a3, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -639,6 +671,10 @@ PrefabInstance:
     - target: {fileID: 1785044199738478, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785044199738478, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4571776215605590, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
       propertyPath: m_RootOrder
@@ -717,6 +753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding10
       objectReference: {fileID: 0}
+    - target: {fileID: 1646639913439324, guid: f9dfc7ea5136a844dbb60b2470911990, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4539606987814986, guid: f9dfc7ea5136a844dbb60b2470911990, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -794,6 +834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding04
       objectReference: {fileID: 0}
+    - target: {fileID: 1468578926959842, guid: c0e48ca465fd6ef4c9e63d644d70e5a6, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4819851783926722, guid: c0e48ca465fd6ef4c9e63d644d70e5a6, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -869,6 +913,10 @@ PrefabInstance:
     - target: {fileID: 1785044199738478, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785044199738478, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4571776215605590, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
       propertyPath: m_RootOrder
@@ -947,6 +995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding03
       objectReference: {fileID: 0}
+    - target: {fileID: 1378370071209536, guid: 8948448374cc0c84eb4d08134120a4c4, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4917032449352002, guid: 8948448374cc0c84eb4d08134120a4c4, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -1019,6 +1071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartment2
       objectReference: {fileID: 0}
+    - target: {fileID: 1244854885922768, guid: 9057b733472e2b54ebc8966eb5485b78, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4208510527079596, guid: 9057b733472e2b54ebc8966eb5485b78, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1082,6 +1138,10 @@ PrefabInstance:
     - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
@@ -1147,6 +1207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding04
       objectReference: {fileID: 0}
+    - target: {fileID: 1468578926959842, guid: c0e48ca465fd6ef4c9e63d644d70e5a6, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4819851783926722, guid: c0e48ca465fd6ef4c9e63d644d70e5a6, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1210,6 +1274,10 @@ PrefabInstance:
     - target: {fileID: 1355464884281048, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355464884281048, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4917875486408044, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
       propertyPath: m_RootOrder
@@ -1287,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding02
       objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -1350,6 +1422,10 @@ PrefabInstance:
     - target: {fileID: 1516307884609076, guid: 65dac5801bf76094db58c57d830f1828, type: 3}
       propertyPath: m_Name
       value: building_apartment8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1516307884609076, guid: 65dac5801bf76094db58c57d830f1828, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4604579876288746, guid: 65dac5801bf76094db58c57d830f1828, type: 3}
       propertyPath: m_RootOrder
@@ -1428,6 +1504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_mechanic
       objectReference: {fileID: 0}
+    - target: {fileID: 1737964153803582, guid: 7a02b2813b02a564a9fdd58af6d191e3, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4197068249736730, guid: 7a02b2813b02a564a9fdd58af6d191e3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1491,6 +1571,10 @@ PrefabInstance:
     - target: {fileID: 1385491797830740, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385491797830740, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4583176950735566, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
       propertyPath: m_RootOrder
@@ -1568,6 +1652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding10
       objectReference: {fileID: 0}
+    - target: {fileID: 1646639913439324, guid: f9dfc7ea5136a844dbb60b2470911990, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4539606987814986, guid: f9dfc7ea5136a844dbb60b2470911990, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1641,6 +1729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding04
       objectReference: {fileID: 0}
+    - target: {fileID: 1468578926959842, guid: c0e48ca465fd6ef4c9e63d644d70e5a6, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4819851783926722, guid: c0e48ca465fd6ef4c9e63d644d70e5a6, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -1704,6 +1796,10 @@ PrefabInstance:
     - target: {fileID: 1934853517836424, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934853517836424, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
       propertyPath: m_RootOrder
@@ -1773,6 +1869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding09
       objectReference: {fileID: 0}
+    - target: {fileID: 1934853517836424, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -1840,6 +1940,10 @@ PrefabInstance:
     - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
@@ -1917,6 +2021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding02
       objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -1992,6 +2100,10 @@ PrefabInstance:
     - target: {fileID: 1934853517836424, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934853517836424, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
       propertyPath: m_RootOrder
@@ -2069,6 +2181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_bank
       objectReference: {fileID: 0}
+    - target: {fileID: 1631595132073662, guid: 72009e12a904a014dbe15ba7459968ad, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4826099665648010, guid: 72009e12a904a014dbe15ba7459968ad, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -2142,6 +2258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding02
       objectReference: {fileID: 0}
+    - target: {fileID: 1212380520111254, guid: e7be26ac80727414d93d96de17986bda, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4541227407256296, guid: e7be26ac80727414d93d96de17986bda, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -2205,6 +2325,10 @@ PrefabInstance:
     - target: {fileID: 1964126759934866, guid: 199465e63a3cac945a23e7e10b29a5d6, type: 3}
       propertyPath: m_Name
       value: building_burgerRestaurant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964126759934866, guid: 199465e63a3cac945a23e7e10b29a5d6, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4310553293729058, guid: 199465e63a3cac945a23e7e10b29a5d6, type: 3}
       propertyPath: m_RootOrder
@@ -2291,6 +2415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding11
       objectReference: {fileID: 0}
+    - target: {fileID: 1785044199738478, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4571776215605590, guid: 19fdb4809035cfe4a97b9d3576897851, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -2368,6 +2496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding09
       objectReference: {fileID: 0}
+    - target: {fileID: 1934853517836424, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2435,6 +2567,10 @@ PrefabInstance:
     - target: {fileID: 1385491797830740, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385491797830740, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4583176950735566, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
       propertyPath: m_RootOrder
@@ -2512,6 +2648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding09
       objectReference: {fileID: 0}
+    - target: {fileID: 1934853517836424, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 990cfb00e0f3beb4d9e6f26ece7b377c, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2575,6 +2715,10 @@ PrefabInstance:
     - target: {fileID: 1681277682126416, guid: fc919ca78dbe7274c9d3266bb3307c47, type: 3}
       propertyPath: m_Name
       value: building_apartment4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1681277682126416, guid: fc919ca78dbe7274c9d3266bb3307c47, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4828993989590112, guid: fc919ca78dbe7274c9d3266bb3307c47, type: 3}
       propertyPath: m_RootOrder
@@ -2652,6 +2796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartment3
       objectReference: {fileID: 0}
+    - target: {fileID: 1421433746022104, guid: dc8ff40e436028848af48a84a6555232, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4499070825876286, guid: dc8ff40e436028848af48a84a6555232, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2727,6 +2875,10 @@ PrefabInstance:
     - target: {fileID: 1042995447606548, guid: f4ff425990a872743bf90cbaa326aa15, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042995447606548, guid: f4ff425990a872743bf90cbaa326aa15, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4401679083308778, guid: f4ff425990a872743bf90cbaa326aa15, type: 3}
       propertyPath: m_RootOrder
@@ -2804,6 +2956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_apartmentBuilding05
       objectReference: {fileID: 0}
+    - target: {fileID: 1385491797830740, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4583176950735566, guid: 25d76072570aa724db2a8dce0e6f0019, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2879,6 +3035,10 @@ PrefabInstance:
     - target: {fileID: 1355464884281048, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
       propertyPath: m_Name
       value: building_apartmentBuilding08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355464884281048, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
+      propertyPath: m_TagString
+      value: TimeAffectedLight
       objectReference: {fileID: 0}
     - target: {fileID: 4917875486408044, guid: 1207368f0a011144c896dfe508a51ce0, type: 3}
       propertyPath: m_RootOrder
