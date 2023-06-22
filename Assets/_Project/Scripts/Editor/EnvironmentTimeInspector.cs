@@ -13,14 +13,9 @@ namespace _Project.Scripts.Editor
 
             EnvironmentTime example = (EnvironmentTime)target;
 
-            if (GUILayout.Button("Set Day"))
+            if (GUILayout.Button("Cycle"))
             {
-                example.SetTime(EnvironmentTime.DayPhases.Day);
-            }
-            
-            if (GUILayout.Button("Set Night"))
-            {
-                example.SetTime(EnvironmentTime.DayPhases.Night);
+                example.CurrentDayPhase++;
             }
         }
     }
