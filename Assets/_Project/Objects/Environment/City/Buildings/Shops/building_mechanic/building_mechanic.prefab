@@ -17,7 +17,7 @@ GameObject:
   m_TagString: TimeAffectedLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 19
   m_IsActive: 1
 --- !u!4 &4197068249736730
 Transform:
@@ -126,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1658771983625230, guid: 818bf11bc935c8d4f9066f522aac417b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4038716849558988, guid: 818bf11bc935c8d4f9066f522aac417b, type: 3}
       propertyPath: m_RootOrder
@@ -205,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1658771983625230, guid: 818bf11bc935c8d4f9066f522aac417b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4038716849558988, guid: 818bf11bc935c8d4f9066f522aac417b, type: 3}
       propertyPath: m_RootOrder

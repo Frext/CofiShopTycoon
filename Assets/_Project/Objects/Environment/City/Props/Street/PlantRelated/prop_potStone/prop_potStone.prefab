@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 18
+  m_StaticEditorFlags: 19
   m_IsActive: 1
 --- !u!4 &4653968508409896
 Transform:
@@ -118,6 +118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_flower2
       objectReference: {fileID: 0}
+    - target: {fileID: 1433494757187930, guid: d2b80d7eb00671a42bf46f22e41480c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 4538842026539680, guid: d2b80d7eb00671a42bf46f22e41480c6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -192,6 +196,10 @@ PrefabInstance:
     - target: {fileID: 1576546866086314, guid: 705a8e6793b4da2419118c24ee453663, type: 3}
       propertyPath: m_Name
       value: prop_flowerRose3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576546866086314, guid: 705a8e6793b4da2419118c24ee453663, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4642973993908834, guid: 705a8e6793b4da2419118c24ee453663, type: 3}
       propertyPath: m_RootOrder
@@ -268,6 +276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_flowerRose1
       objectReference: {fileID: 0}
+    - target: {fileID: 1803030754366312, guid: 0ab3596bb70d7eb4db14a3098b15ab8b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 4134899684590330, guid: 0ab3596bb70d7eb4db14a3098b15ab8b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -342,6 +354,10 @@ PrefabInstance:
     - target: {fileID: 1697981927908082, guid: 2a81d892217bcf14eab64bf87e67bcbe, type: 3}
       propertyPath: m_Name
       value: prop_flower1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697981927908082, guid: 2a81d892217bcf14eab64bf87e67bcbe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4315948977571686, guid: 2a81d892217bcf14eab64bf87e67bcbe, type: 3}
       propertyPath: m_RootOrder
@@ -418,6 +434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_flowerRose1
       objectReference: {fileID: 0}
+    - target: {fileID: 1803030754366312, guid: 0ab3596bb70d7eb4db14a3098b15ab8b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 4134899684590330, guid: 0ab3596bb70d7eb4db14a3098b15ab8b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -492,6 +512,10 @@ PrefabInstance:
     - target: {fileID: 1697981927908082, guid: 2a81d892217bcf14eab64bf87e67bcbe, type: 3}
       propertyPath: m_Name
       value: prop_flower1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697981927908082, guid: 2a81d892217bcf14eab64bf87e67bcbe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4315948977571686, guid: 2a81d892217bcf14eab64bf87e67bcbe, type: 3}
       propertyPath: m_RootOrder
@@ -568,6 +592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_flowerRose5
       objectReference: {fileID: 0}
+    - target: {fileID: 1725547435515060, guid: 41a8b6978dce6444bb70361cb06ecd73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 4611235894464818, guid: 41a8b6978dce6444bb70361cb06ecd73, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -643,6 +671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prop_flowerRose2
       objectReference: {fileID: 0}
+    - target: {fileID: 1812167064584136, guid: 4ad495896bc7c904895328f62bc94fb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 4806305339081088, guid: 4ad495896bc7c904895328f62bc94fb2, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -717,6 +749,10 @@ PrefabInstance:
     - target: {fileID: 1812167064584136, guid: 4ad495896bc7c904895328f62bc94fb2, type: 3}
       propertyPath: m_Name
       value: prop_flowerRose2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812167064584136, guid: 4ad495896bc7c904895328f62bc94fb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4806305339081088, guid: 4ad495896bc7c904895328f62bc94fb2, type: 3}
       propertyPath: m_RootOrder
