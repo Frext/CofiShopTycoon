@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 108546760131175710}
   - component: {fileID: 3955732159958205688}
   m_Layer: 0
-  m_Name: Baked Light
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,10 +45,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.9529412, g: 0.8509804, b: 0.7607843, a: 1}
-  m_Intensity: 30
-  m_Range: 50
+  m_Intensity: 9
+  m_Range: 10
   m_SpotAngle: 179
-  m_InnerSpotAngle: 165
+  m_InnerSpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0

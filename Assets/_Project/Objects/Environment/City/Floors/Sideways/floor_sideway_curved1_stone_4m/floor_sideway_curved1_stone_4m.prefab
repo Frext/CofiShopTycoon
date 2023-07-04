@@ -46,10 +46,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_sideway_2m
       objectReference: {fileID: 0}
-    - target: {fileID: 1442747450203514, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 19
-      objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -112,10 +108,6 @@ PrefabInstance:
     - target: {fileID: 1442747450203514, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_Name
       value: floor_sideway_2m
-      objectReference: {fileID: 0}
-    - target: {fileID: 1442747450203514, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4558070733231408, guid: 002897782823efe489fb6dddb838e9d2, type: 3}
       propertyPath: m_RootOrder
@@ -180,10 +172,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: floor_sideway_curvePoint
       objectReference: {fileID: 0}
-    - target: {fileID: 1893114798651238, guid: 95a48e6cf2199094182018aac1092bf9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 19
-      objectReference: {fileID: 0}
     - target: {fileID: 4327670655549164, guid: 95a48e6cf2199094182018aac1092bf9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -247,11 +235,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: floor_sideway_curved1_stone_2m
-      objectReference: {fileID: 0}
-    - target: {fileID: 8124817778347147520, guid: 1d0eaa5e83ce3664099d7b18fe041a73,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8130209775197695702, guid: 1d0eaa5e83ce3664099d7b18fe041a73,
         type: 3}
