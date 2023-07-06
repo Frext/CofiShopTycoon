@@ -4,7 +4,6 @@
     <list default="true" id="31b3ff74-ff8c-470c-9046-822dccc44d69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CofiShopTycoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CofiShopTycoon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Utilities/URP/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Utilities/URP/Settings/SampleSceneProfile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +101,7 @@
       <workItem from="1688582576007" duration="6358000" />
       <workItem from="1688591865876" duration="4902000" />
       <workItem from="1688634634520" duration="2169000" />
+      <workItem from="1688637164890" duration="2526000" />
     </task>
     <servers />
   </component>

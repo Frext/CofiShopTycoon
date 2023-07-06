@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static _Project.Scripts.Gameplay.Player.HelperMethodsUtil;
 
 namespace _Project.Scripts.Gameplay.Player
 {
-	[RequireComponent(typeof(Rigidbody), typeof(PlayerInput))]
+	[RequireComponent(typeof(Rigidbody), typeof(Collider), typeof(PlayerInput))]
 	public class PlayerMovement : MonoBehaviour
 	{
 		[Header("Walk Properties")]
@@ -13,14 +14,9 @@ namespace _Project.Scripts.Gameplay.Player
 		
 		[Header("Jump Properties")]
 		[SerializeField] [Range(0, 20)] private float jumpForce;
-		[SerializeField] [Range(0, 1)] private float continuousJumpInterval;
-		[Space]
-		
+
 		[Tooltip("The speed multiplier when the player is not grounded.")]
 		[SerializeField] [Range(0, 10)] private float airMultiplier;
-		
-		[Tooltip("How close the player should be to ground to jump to avoid jumping in mid-air.")]
-		[SerializeField] [Range(0, 10)] private float groundDistance;
 
 		[SerializeField] private LayerMask groundLayerMask;
 
@@ -28,11 +24,11 @@ namespace _Project.Scripts.Gameplay.Player
 		Rigidbody playerRb;
 	
 		Vector2 inputVector;
-		
-		bool isJumpPressed;
-		float jumpDelta;
 
-		
+		bool isPlayerInAir;
+		bool isJumpHeld;
+
+
 		void Awake()
 		{
 			playerRb = GetComponent<Rigidbody>();
@@ -51,7 +47,7 @@ namespace _Project.Scripts.Gameplay.Player
 
 			FallFaster();
 		}
-
+		
 		private void Walk()
 		{
 			Vector3 inputDir = (transform.forward * inputVector.y + transform.right * inputVector.x).normalized;
@@ -65,39 +61,32 @@ namespace _Project.Scripts.Gameplay.Player
 			
 			Vector3 movementForce = inputDir * walkSpeed;
 
-			if (IsPlayerInAir())
+			if (isPlayerInAir)
 				movementForce *= airMultiplier;
 
 			playerRb.AddForce(movementForce, ForceMode.Force);
 		}
 		
-		private bool IsPlayerInAir()
+		void OnCollisionStay(Collision collision)
 		{
-			return !Physics.Raycast(transform.position, Vector3.down, groundDistance, groundLayerMask);
+			if (IsLayerInLayerMask(collision.gameObject.layer, groundLayerMask))
+				isPlayerInAir = false;
 		}
-		
+
+		void OnCollisionExit(Collision collision)
+		{
+			if (IsLayerInLayerMask(collision.gameObject.layer, groundLayerMask))
+				isPlayerInAir = true;
+		}
+
 		private void Jump()
 		{
-			// When mid air, don't increase the jumpDelta.
-			if (IsPlayerInAir())
+			if (isPlayerInAir || !isJumpHeld)
 			{
 				return;
 			}
-			
-			jumpDelta += Time.deltaTime;
-			
-			// If trying to jump again in the state of jumping. Don't let that because it jumps much higher.
-			if (jumpDelta <= continuousJumpInterval)
-			{
-				return;
-			}
-			
-			if (isJumpPressed)
-			{
-				playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-				
-				jumpDelta = 0.0f;
-			}
+
+			playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
 		}
 		
 		private void FallFaster()
@@ -119,11 +108,11 @@ namespace _Project.Scripts.Gameplay.Player
 		{
 			if (context.started)
 			{
-				isJumpPressed = true;
+				isJumpHeld = true;
 			}
 			else if (context.canceled)
 			{
-				isJumpPressed = false;
+				isJumpHeld = false;
 			}
 		}
 
