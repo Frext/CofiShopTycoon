@@ -13,6 +13,8 @@ namespace _Project.Scripts.Gameplay.Player
 		
 		[Header("Jump Properties")]
 		[SerializeField] [Range(0, 20)] private float jumpForce;
+		[SerializeField] [Range(0, 1)] private float continuousJumpInterval;
+		[Space]
 		
 		[Tooltip("The speed multiplier when the player is not grounded.")]
 		[SerializeField] [Range(0, 10)] private float airMultiplier;
@@ -24,39 +26,86 @@ namespace _Project.Scripts.Gameplay.Player
 
 		
 		Rigidbody playerRb;
-		
+	
 		Vector2 inputVector;
+		
+		bool isJumpPressed;
+		float jumpDelta;
 
 		
 		void Awake()
 		{
 			playerRb = GetComponent<Rigidbody>();
-			playerRb.freezeRotation = true;
 		}
 
+		void Start()
+		{
+			playerRb.freezeRotation = true;
+		}
+		
 		void FixedUpdate()
 		{
 			Walk();
+			
+			Jump();
+
+			FallFaster();
 		}
 
 		private void Walk()
 		{
-			// First, rotate the player with LEFT and RIGHT inputs.
-			transform.forward = Vector3.Slerp(transform.forward , transform.right * inputVector.x, rotateSpeed * Time.fixedDeltaTime);
-
+			Vector3 inputDir = (transform.forward * inputVector.y + transform.right * inputVector.x).normalized;
 			
-			// Then, add the player a force in the direction of UP and DOWN inputs.
-			Vector3 movementForce = transform.forward * (inputVector.y * walkSpeed);
+			// If not moving backwards, rotate to the input.
+			if (inputVector.y >= 0f)
+			{
+				transform.forward = Vector3.Slerp(transform.forward, inputDir, rotateSpeed * Time.fixedDeltaTime);
+			}
+			
+			
+			Vector3 movementForce = inputDir * walkSpeed;
 
-			if (!IsPlayerGrounded())
+			if (IsPlayerInAir())
 				movementForce *= airMultiplier;
 
 			playerRb.AddForce(movementForce, ForceMode.Force);
 		}
 		
-		private bool IsPlayerGrounded()
+		private bool IsPlayerInAir()
 		{
-			return Physics.Raycast(transform.position, Vector3.down, groundDistance, groundLayerMask);
+			return !Physics.Raycast(transform.position, Vector3.down, groundDistance, groundLayerMask);
+		}
+		
+		private void Jump()
+		{
+			// When mid air, don't increase the jumpDelta.
+			if (IsPlayerInAir())
+			{
+				return;
+			}
+			
+			jumpDelta += Time.deltaTime;
+			
+			// If trying to jump again in the state of jumping. Don't let that because it jumps much higher.
+			if (jumpDelta <= continuousJumpInterval)
+			{
+				return;
+			}
+			
+			if (isJumpPressed)
+			{
+				playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+				
+				jumpDelta = 0.0f;
+			}
+		}
+		
+		private void FallFaster()
+		{
+			if (playerRb.velocity.y < -0.01f)
+			{
+				playerRb.velocity += Vector3.up * (Physics.gravity.y * Time.fixedDeltaTime);
+			}
 		}
 
 		#region Player Input Actions Methods
@@ -65,12 +114,16 @@ namespace _Project.Scripts.Gameplay.Player
 		{
 			inputVector = context.ReadValue<Vector2>();
 		}
-
+		
 		public void OnJump(InputAction.CallbackContext context)
 		{
-			if (context.performed && IsPlayerGrounded())
+			if (context.started)
 			{
-				playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+				isJumpPressed = true;
+			}
+			else if (context.canceled)
+			{
+				isJumpPressed = false;
 			}
 		}
 
