@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using _Project.Scripts.ScriptableObject;
 using UnityEngine;
 
 namespace _Project.Scripts.Gameplay.Environment
@@ -12,22 +13,25 @@ namespace _Project.Scripts.Gameplay.Environment
 
 		public Material lightMaterial;
 		public Material skyboxMaterial;
+
+		public int hourStart;
 	}
 	
 	public class EnvironmentTime : MonoBehaviour
 	{
-		// TODO: Make every public thing private in this class whenever the editor script is deleted.
-		[Header("Finding Objects")]
-		[SerializeField] private string objectWithLightTag;
+		[SerializeField] private FloatObject timeSO;
 		
+		[Header("Finding Light Sources")]
+		[SerializeField] private string objectWithLightTag = "Untagged";
 		[Space]
+		
 		[SerializeField] private List<DayPhase> dayPhases;
 
-		
+
 		List<Renderer> renderersWithLightList = new();
 		
 		private int _currentDayPhase;
-		public int CurrentDayPhase
+		private int CurrentDayPhase
 		{
 			get => _currentDayPhase;
 			set
@@ -48,12 +52,12 @@ namespace _Project.Scripts.Gameplay.Environment
 			if (min > max)
 				throw new Exception("min cannot be greater than max in the CycleBetween method");
 
-			int count = max - min + 1;
-			
 			// Lets say value was -1, min was 0, and max was 2. The length would be 3.
 			// (3 + -1 - 0) % (3+0) = 2 % 3 + 0 = 2
 			// Otherwise if the value was 3,
 			// (3 + 3 - 0) % 3 + 0 = 0
+			int count = max - min + 1;
+
 			return min + (count + value - min) % count;
 		}
 		
@@ -92,11 +96,6 @@ namespace _Project.Scripts.Gameplay.Environment
 			SetSkybox(dayPhases[CurrentDayPhase].skyboxMaterial);
 		}
 
-		private void SetSkybox(Material material)
-		{
-			RenderSettings.skybox = material;
-		}
-
 		private Material[] ReplaceOneMaterial(Material[] materialArray, Material oldMaterial, Material newMaterial)
 		{
 			for (int index = 0; index < materialArray.Length; index++)
@@ -110,6 +109,30 @@ namespace _Project.Scripts.Gameplay.Environment
 			}
 
 			return materialArray;
+		}
+		
+		private void SetSkybox(Material material)
+		{
+			RenderSettings.skybox = material;
+		}
+
+		void Update()
+		{
+			timeSO.value += Time.deltaTime;
+
+			GoToNextPhase();
+		}
+
+		private void GoToNextPhase()
+		{
+			for (int index = 0; index < dayPhases.Count; index++)
+			{
+				if ((int)timeSO.value / 60 >= dayPhases[index].hourStart)
+				{
+					print((int)timeSO.value / 60);
+					CurrentDayPhase = index;
+				}
+			}
 		}
 	}
 }
