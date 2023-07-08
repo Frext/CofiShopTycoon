@@ -1,7 +1,9 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using _Project.Scripts.ScriptableObject;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace _Project.Scripts.Gameplay.Environment
 {
@@ -10,11 +12,20 @@ namespace _Project.Scripts.Gameplay.Environment
 	{
 		[Tooltip("It just separates phases. No effect on code.")]
 		[SerializeField] private string name;
-
-		public Material lightMaterial;
-		public Material skyboxMaterial;
-
+		[Space]
+		
 		public int hourStart;
+		[Space]
+		
+		public Material lightSourceMaterial;
+		public Material skyboxMaterial;
+		public float ambientIntensityMultiplier;
+
+		[Space] 
+		[Tooltip("Sun Source")]
+		public Light directionalLight;
+		public bool isLightSourceOn;
+		public bool isFogOn;
 	}
 	
 	public class EnvironmentTime : MonoBehaviour
@@ -25,10 +36,11 @@ namespace _Project.Scripts.Gameplay.Environment
 		[SerializeField] private string objectWithLightTag = "Untagged";
 		[Space]
 		
-		[SerializeField] private List<DayPhase> dayPhases;
+		[SerializeField] private List<DayPhase> dayPhaseList;
 
 
 		List<Renderer> renderersWithLightList = new();
+		List<GameObject> lightSourcesList = new();
 		
 		private int _currentDayPhase;
 		private int CurrentDayPhase
@@ -40,12 +52,11 @@ namespace _Project.Scripts.Gameplay.Environment
 				if (_currentDayPhase == value)
 					return;
 				
-				_currentDayPhase = CycleBetween(value, 0, dayPhases.Count - 1);
-				SetTime();
+				_currentDayPhase = CycleBetween(value, 0, dayPhaseList.Count - 1);
+				SetDayPhase();
 			}
 		}
-		
-		
+
 		private int CycleBetween(int value, int min, int max)
 		{
 			// Secure the min and max arguments
@@ -61,39 +72,29 @@ namespace _Project.Scripts.Gameplay.Environment
 			return min + (count + value - min) % count;
 		}
 		
-		void Awake()
+		private void SetDayPhase()
 		{
-			ObtainMeshRenderersWithLightList();
+			SetLightSourceMaterials();
+			SetSkyboxMaterial(dayPhaseList[CurrentDayPhase].skyboxMaterial);
+			SetSkyboxIntensity(dayPhaseList[CurrentDayPhase].ambientIntensityMultiplier);
+
+			SetSun(dayPhaseList[CurrentDayPhase].directionalLight);
+			ToggleLightSources(dayPhaseList[CurrentDayPhase].isLightSourceOn);
+			ToggleFog(dayPhaseList[CurrentDayPhase].isFogOn);
 		}
-
-		private void ObtainMeshRenderersWithLightList()
-		{
-			foreach (GameObject go in GameObject.FindGameObjectsWithTag(objectWithLightTag))
-			{
-				Renderer currentMeshRenderer = go.GetComponent<Renderer>();
-
-				if (currentMeshRenderer != null)
-				{
-					renderersWithLightList.Add(currentMeshRenderer);
-				}
-			}
-		}
-
-		private void SetTime()
+		
+		private void SetLightSourceMaterials()
 		{
 			Material oldMaterial,
 				newMaterial;
 			
-			oldMaterial = dayPhases[CycleBetween(CurrentDayPhase - 1, 0, dayPhases.Count - 1)].lightMaterial;
-			newMaterial = dayPhases[CurrentDayPhase].lightMaterial;
+			oldMaterial = dayPhaseList[CycleBetween(CurrentDayPhase - 1, 0, dayPhaseList.Count - 1)].lightSourceMaterial;
+			newMaterial = dayPhaseList[CurrentDayPhase].lightSourceMaterial;
 			
 			foreach (Renderer currentRenderer in renderersWithLightList)
 			{
 				currentRenderer.sharedMaterials = ReplaceOneMaterial(currentRenderer.sharedMaterials, oldMaterial, newMaterial);
 			}
-			
-			
-			SetSkybox(dayPhases[CurrentDayPhase].skyboxMaterial);
 		}
 
 		private Material[] ReplaceOneMaterial(Material[] materialArray, Material oldMaterial, Material newMaterial)
@@ -111,28 +112,106 @@ namespace _Project.Scripts.Gameplay.Environment
 			return materialArray;
 		}
 		
-		private void SetSkybox(Material material)
+		private void SetSkyboxMaterial(Material material)
 		{
 			RenderSettings.skybox = material;
+		}
+		
+		private void SetSkyboxIntensity(float skyboxIntensityMultiplier)
+		{
+			RenderSettings.ambientIntensity = skyboxIntensityMultiplier;
+		}
+		
+		private void SetSun(Light directionalLight)
+		{
+			// First turn the directional lights on or off so they dont overlap.
+			for (int index = 0; index < dayPhaseList.Count; index++)
+			{
+				dayPhaseList[index].directionalLight.gameObject.SetActive(index == _currentDayPhase);
+			}
+			
+			RenderSettings.sun = directionalLight;
+		}
+		
+		private void ToggleLightSources(bool isLightSourceOn)
+		{
+			foreach (var lightSource in lightSourcesList)
+			{
+				lightSource.SetActive(isLightSourceOn);
+			}
+		}
+		
+		private void ToggleFog(bool isFogOn)
+		{
+			RenderSettings.fog = isFogOn;
+		}
+		
+		void Awake()
+		{
+			ObtainMeshRenderersWithLightList();
+			ObtainLightSources();
+		}
+		
+		private void ObtainMeshRenderersWithLightList()
+		{
+			foreach (GameObject go in GameObject.FindGameObjectsWithTag(objectWithLightTag))
+			{
+				Renderer currentMeshRenderer = go.GetComponent<Renderer>();
+
+				if (currentMeshRenderer != null)
+				{
+					renderersWithLightList.Add(currentMeshRenderer);
+				}
+			}
+		}
+		
+		private void ObtainLightSources()
+		{
+			foreach (Light lightComponent in FindObjectsOfType<Light>())
+			{
+				if (lightComponent != null)
+				{
+					lightSourcesList.Add(lightComponent.gameObject);
+				}
+			}
+		}
+
+		void Start()
+		{
+			// Update the day phase before the game begins because the setup could be wrong.
+			CurrentDayPhase++;
+			CurrentDayPhase--;
 		}
 
 		void Update()
 		{
 			timeSO.value += Time.deltaTime;
-
-			GoToNextPhase();
+		}
+		
+		void OnEnable()
+		{
+			StartCoroutine(IGoToNextPhase());
+		}
+		
+		IEnumerator IGoToNextPhase()
+		{
+			while (true)
+			{
+				for (int index = 0; index < dayPhaseList.Count; index++)
+				{
+					if ((int)timeSO.value / 60 >= dayPhaseList[index].hourStart)
+					{
+						CurrentDayPhase = index;
+					}
+				}
+				
+				yield return new WaitForSeconds(1f);
+			}
 		}
 
-		private void GoToNextPhase()
+		void OnDisable()
 		{
-			for (int index = 0; index < dayPhases.Count; index++)
-			{
-				if ((int)timeSO.value / 60 >= dayPhases[index].hourStart)
-				{
-					print((int)timeSO.value / 60);
-					CurrentDayPhase = index;
-				}
-			}
+			StopAllCoroutines();
 		}
 	}
 }
