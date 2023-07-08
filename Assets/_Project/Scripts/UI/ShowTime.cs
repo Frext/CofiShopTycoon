@@ -1,3 +1,4 @@
+using System.Collections;
 using _Project.Scripts.ScriptableObject;
 using TMPro;
 using UnityEngine;
@@ -17,20 +18,25 @@ namespace _Project.Scripts.UI
 			textMeshPro = GetComponent<TextMeshProUGUI>();
 		}
 
-		void Start()
+		void OnEnable()
 		{
-			UpdateText();
+			StartCoroutine(IUpdateText());
 		}
 
-		private void UpdateText()
+		IEnumerator IUpdateText()
 		{
-			textMeshPro.SetText(((int)timeSO.value / 60).ToString("D2") + ":" + 
-			                    ((int)timeSO.value % 60).ToString("D2"));
+			while (true)
+			{
+				textMeshPro.SetText(((int)timeSO.value / 60).ToString("D2") + ":" +
+				                    ((int)timeSO.value % 60).ToString("D2"));
+
+				yield return new WaitForSeconds(1f);
+			}
 		}
 		
-		void Update()
+		private void OnDisable()
 		{
-			UpdateText();
+			StopAllCoroutines();
 		}
 	}
 }

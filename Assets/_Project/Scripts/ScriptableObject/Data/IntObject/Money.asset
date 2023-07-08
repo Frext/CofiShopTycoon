@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Money
   m_EditorClassIdentifier: 
   minimum: 0
-  maximum: 2147483647
+  maximum: 99999
   _value: 0
