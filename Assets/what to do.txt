@@ -1,0 +1,20 @@
+Food
+	Heatable
+	
+	Click1	- Take item
+	Click2	- Drop item
+	
+	
+Togglable 	- For food covers
+	Click1	- Open cover
+	Click2	- Close cover
+
+HeatMachine
+	Click1	- Open cover if nothing is getting heated
+	Click2 	- Close cover and start heating if the things inside is heatable
+
+BeverageMachine
+	Click1	- Spawn cup and fill beverage if there is no previous in the cup spot.
+
+Bell
+	Click1	- Finish the order and send it to the QueueManager.
