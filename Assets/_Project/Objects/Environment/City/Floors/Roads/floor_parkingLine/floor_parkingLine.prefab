@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3831961641603324795}
   - component: {fileID: 3820797946414627957}
   - component: {fileID: -2795194104731230738}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor_parkingLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,9 +91,9 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945893281986604}
-  m_Material: {fileID: 13400000, guid: cbf0f558e3a621246babc8014b336d42, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.020000005, z: 0}
-  m_Center: {x: 0, y: 0, z: 0.0010000004}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 865497374568897887}
   - component: {fileID: 877793359756464163}
   - component: {fileID: 5843458608829156211}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: floor_sideway_curved1_road_2m
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138070732147832}
-  m_Material: {fileID: 13400000, guid: cbf0f558e3a621246babc8014b336d42, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
