@@ -92,8 +92,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579341935053140}
-  - component: {fileID: 3541468789547510632}
-  m_Layer: 0
+  - component: {fileID: 5450202099857949724}
+  - component: {fileID: 1998949324}
+  m_Layer: 6
   m_Name: prop_displayGlass3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +118,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3541468789547510632
+--- !u!65 &5450202099857949724
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,8 +129,22 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.45264617, y: 0.034984082, z: 0.44283304}
-  m_Center: {x: 0.000000014901163, y: 0.032985922, z: -0.00000005960465}
+  m_Size: {x: 0.44098195, y: 0.243469, z: 0.5035955}
+  m_Center: {x: 0, y: 0.13878924, z: 0}
+--- !u!114 &1998949324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073982149694284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45317cdf8c432445867894049636eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openPoint: {x: 0, y: 0, z: 0}
+  closePoint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108241167789778
 GameObject:
   m_ObjectHideFlags: 0

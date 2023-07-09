@@ -337,7 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4426983414542964}
   - component: {fileID: 5805678003320134106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_sculent1_medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}

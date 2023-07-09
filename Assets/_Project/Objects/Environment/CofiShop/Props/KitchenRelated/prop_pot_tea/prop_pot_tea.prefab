@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33613364826945466}
   - component: {fileID: 23476322138259918}
   - component: {fileID: 5400406392604931692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_pot_tea
   m_TagString: Untagged
   m_Icon: {fileID: 0}

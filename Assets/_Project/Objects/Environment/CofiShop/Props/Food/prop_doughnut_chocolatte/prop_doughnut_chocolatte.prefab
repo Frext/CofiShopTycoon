@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 33380490814094564}
   - component: {fileID: 23759768252485708}
   - component: {fileID: 6022090444004370712}
-  m_Layer: 8
+  - component: {fileID: 1922589334}
+  - component: {fileID: 3239713474365122400}
+  m_Layer: 6
   m_Name: prop_doughnut_chocolatte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,3 +99,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2441293, y: 0.1005864, z: 0.25274336}
   m_Center: {x: 0, y: 0.05094686, z: 0.000000007450581}
+--- !u!114 &1922589334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533911595845050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499003f1928d6144db25a7652c180870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 11
+  isHeld: 0
+--- !u!114 &3239713474365122400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533911595845050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0212217d3d9194ab07954b16aa8a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

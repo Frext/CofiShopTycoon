@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4200683203587914}
   - component: {fileID: 1193289313932338870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_microwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}

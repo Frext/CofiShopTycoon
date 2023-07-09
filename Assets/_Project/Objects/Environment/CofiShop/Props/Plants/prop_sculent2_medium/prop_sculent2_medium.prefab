@@ -206,7 +206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4992678973022608}
   - component: {fileID: 6323178420778326694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_sculent2_medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}

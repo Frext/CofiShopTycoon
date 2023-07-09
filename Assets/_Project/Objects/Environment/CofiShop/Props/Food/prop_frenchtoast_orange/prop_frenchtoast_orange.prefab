@@ -259,7 +259,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4841247918461458}
   - component: {fileID: 7303209007888595661}
-  m_Layer: 0
+  - component: {fileID: 49783472628431627}
+  - component: {fileID: 2336103418065303295}
+  m_Layer: 6
   m_Name: prop_frenchtoast_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +275,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794662739935882}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
@@ -297,3 +299,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3412101, y: 0.03367096, z: 0.3431567}
   m_Center: {x: 0.000003889203, y: 0.035128348, z: 0.00874313}
+--- !u!114 &49783472628431627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794662739935882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499003f1928d6144db25a7652c180870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  isHeld: 0
+--- !u!114 &2336103418065303295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794662739935882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0212217d3d9194ab07954b16aa8a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

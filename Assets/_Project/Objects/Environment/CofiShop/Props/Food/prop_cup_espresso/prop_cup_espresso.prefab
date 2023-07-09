@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4231305011238820}
   - component: {fileID: 8865153054875146806}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_cup_espresso
   m_TagString: Untagged
   m_Icon: {fileID: 0}

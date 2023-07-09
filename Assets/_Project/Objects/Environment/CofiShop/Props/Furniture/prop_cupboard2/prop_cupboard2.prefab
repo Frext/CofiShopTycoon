@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4121557053689200}
   - component: {fileID: 2062499980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_cupboard2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

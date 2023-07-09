@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 33122186538404048}
   - component: {fileID: 23995372506347246}
   - component: {fileID: 6657343252341573105}
-  m_Layer: 8
+  - component: {fileID: 8029004836534614118}
+  - component: {fileID: 2943514320918407605}
+  m_Layer: 6
   m_Name: prop_croissant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,3 +99,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.33332425, y: 0.20074968, z: 0.1901995}
   m_Center: {x: 0.0000046491623, y: 0.10096658, z: -0.08928056}
+--- !u!114 &8029004836534614118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730609000794682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499003f1928d6144db25a7652c180870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 16
+  isHeld: 0
+--- !u!114 &2943514320918407605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730609000794682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0212217d3d9194ab07954b16aa8a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

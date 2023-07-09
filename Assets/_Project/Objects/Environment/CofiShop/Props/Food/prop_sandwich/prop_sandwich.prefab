@@ -176,7 +176,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4315566473903498}
   - component: {fileID: 2377418024977261696}
-  m_Layer: 0
+  - component: {fileID: 6903870590739778936}
+  - component: {fileID: 430859519}
+  m_Layer: 6
   m_Name: prop_sandwich
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,6 +217,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.35587382, y: 0.09911831, z: 0.35953897}
   m_Center: {x: 0.0007662177, y: 0.051096894, z: 0.0022582114}
+--- !u!114 &6903870590739778936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497431664766396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499003f1928d6144db25a7652c180870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  isHeld: 0
+--- !u!114 &430859519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497431664766396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0212217d3d9194ab07954b16aa8a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1635954399707558
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 33985144691232896}
   - component: {fileID: 23305641999602946}
   - component: {fileID: 1106912360065878592}
-  m_Layer: 0
+  - component: {fileID: 8728799508269600020}
+  - component: {fileID: 4208316432015261397}
+  m_Layer: 6
   m_Name: prop_macaron_tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,3 +99,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.45138943, y: 0.26406187, z: 0.39549482}
   m_Center: {x: 0, y: 0.13214287, z: 0}
+--- !u!114 &8728799508269600020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091724648208240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499003f1928d6144db25a7652c180870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isHeld: 0
+--- !u!114 &4208316432015261397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091724648208240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0212217d3d9194ab07954b16aa8a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

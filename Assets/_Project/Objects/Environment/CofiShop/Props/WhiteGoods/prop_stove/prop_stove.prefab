@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4198406258042436}
   - component: {fileID: 8332672469418665661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_stove
   m_TagString: Untagged
   m_Icon: {fileID: 0}

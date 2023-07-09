@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 8622307540232158599}
   - component: {fileID: 8622307540232158597}
   - component: {fileID: 8622307540232158621}
+  - component: {fileID: 7591883338933253226}
   m_Layer: 0
   m_Name: PlayerFPS
   m_TagString: Untagged
@@ -294,9 +295,26 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f86512f8-9dab-45f7-8a15-ecdc1f052dd1
     m_ActionName: Movement/Look[/Mouse/delta,/Pen/delta]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7591883338933253226}
+        m_TargetAssemblyTypeName: _Project.Scripts.Gameplay.Player.PlayerInteractionController,
+          Assembly-CSharp
+        m_MethodName: OnMouseClick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ac5825a2-9641-4980-b459-3a228eb49c9d
+    m_ActionName: Gameplay/Interact[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Movement
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &8622307540232158597
@@ -332,6 +350,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cmCamera: {fileID: 0}
   sensitivity: 0.2
+--- !u!114 &7591883338933253226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8622307540232158620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8beeb6e1b6720e4d87d85503ecd0c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistance: 1
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  objectToFollow: {fileID: 0}
 --- !u!1 &8622307540737764105
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +391,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8622307540737764105}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.679, z: 0.363}
+  m_LocalPosition: {x: 0, y: 0.652, z: 0.443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

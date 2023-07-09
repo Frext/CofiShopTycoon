@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33857870974421968}
   - component: {fileID: 23549581986534836}
   - component: {fileID: 7518644098748092730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_pot_mocha
   m_TagString: Untagged
   m_Icon: {fileID: 0}

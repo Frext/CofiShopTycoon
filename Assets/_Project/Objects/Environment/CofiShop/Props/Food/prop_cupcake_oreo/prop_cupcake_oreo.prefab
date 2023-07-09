@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33743285815188098}
   - component: {fileID: 23292986453142970}
   - component: {fileID: 4124385562495543833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: prop_cupcake_oreo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
