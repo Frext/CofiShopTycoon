@@ -51,7 +51,10 @@ namespace _Project.Scripts.Gameplay.Environment
 				// If it's already the same day phase, don't change it.
 				if (_currentDayPhase == value)
 					return;
-				
+
+				if (dayPhaseList.Count == 0)
+					return;
+
 				_currentDayPhase = CycleBetween(value, 0, dayPhaseList.Count - 1);
 				SetDayPhase();
 			}

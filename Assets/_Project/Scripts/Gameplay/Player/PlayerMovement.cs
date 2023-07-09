@@ -11,7 +11,6 @@ namespace _Project.Scripts.Gameplay.Player
 		[SerializeField] [Range(0, 20)] private float walkSpeed;
 		[SerializeField] [Range(0.01f, 20)] private float rotateSpeed;
 
-		
 		[Header("Jump Properties")]
 		[SerializeField] [Range(0, 20)] private float jumpForce;
 
