@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static _Project.Scripts.Gameplay.Player.HelperMethodsUtil;
+using static _Project.Scripts.HelperMethodsUtil;
 
 namespace _Project.Scripts.Gameplay.Player
 {

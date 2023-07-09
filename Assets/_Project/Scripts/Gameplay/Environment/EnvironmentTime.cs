@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using _Project.Scripts.ScriptableObject;
 using UnityEngine;
-using UnityEngine.Serialization;
+using static _Project.Scripts.HelperMethodsUtil;
 
 namespace _Project.Scripts.Gameplay.Environment
 {
@@ -57,21 +57,6 @@ namespace _Project.Scripts.Gameplay.Environment
 			}
 		}
 
-		private int CycleBetween(int value, int min, int max)
-		{
-			// Secure the min and max arguments
-			if (min > max)
-				throw new Exception("min cannot be greater than max in the CycleBetween method");
-
-			// Lets say value was -1, min was 0, and max was 2. The length would be 3.
-			// (3 + -1 - 0) % (3+0) = 2 % 3 + 0 = 2
-			// Otherwise if the value was 3,
-			// (3 + 3 - 0) % 3 + 0 = 0
-			int count = max - min + 1;
-
-			return min + (count + value - min) % count;
-		}
-		
 		private void SetDayPhase()
 		{
 			SetLightSourceMaterials();

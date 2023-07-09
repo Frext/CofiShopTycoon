@@ -1,5 +1,5 @@
-using System;
 using UnityEngine;
+using static _Project.Scripts.HelperMethodsUtil;
 
 namespace _Project.Scripts.ScriptableObject
 {
@@ -19,17 +19,6 @@ namespace _Project.Scripts.ScriptableObject
                 return _value;
             }
             set => _value = value;
-        }
-
-        private int CycleBetween(int value, int min, int max)
-        {
-            // Secure the min and max arguments
-            if (min > max)
-                throw new Exception("min cannot be greater than max in the CycleBetween method");
-
-            int count = max - min + 1;
-
-            return min + (count + value - min) % count;
         }
     }
 }

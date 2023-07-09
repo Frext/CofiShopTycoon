@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimum: 0
   maximum: 99999
-  _value: 202
+  _value: 0

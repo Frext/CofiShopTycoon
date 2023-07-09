@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="31b3ff74-ff8c-470c-9046-822dccc44d69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CofiShopTycoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CofiShopTycoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Objects/Environment/CofiShop/Props/_CommonProperties/mat_transparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Objects/Environment/CofiShop/Props/_CommonProperties/mat_transparent.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObject/Data/IntObject/Money.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObject/Data/IntObject/Money.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/ShowTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/ShowTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scenes/City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scenes/City.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Environment/EnvironmentTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Environment/EnvironmentTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Player/HelperMethodsUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Player/HelperMethodsUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Gameplay/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObject/FloatObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObject/FloatObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObject/IntObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObject/IntObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +106,7 @@
       <workItem from="1688634634520" duration="2169000" />
       <workItem from="1688637164890" duration="2526000" />
       <workItem from="1688843279644" duration="680000" />
+      <workItem from="1688899366228" duration="304000" />
     </task>
     <servers />
   </component>
