@@ -94,7 +94,7 @@ Want to skip the code and just explore the environment?
 
 - **Static & Dynamic Lighting:** Buildings and roads use pre-calculated (baked) lightmaps to save performance, while streetlights, traffic lights, and moving players cast real-time shadows.
 - **URP Optimization:** Uses Unity's Universal Render Pipeline features like Ambient Occlusion (better contact shadows) and Post-Processing profiles to make the game look smooth and run well.
-- **Two Unique Maps & Perspectives:**
+- **Two Unique Maps:**
   - **City Map (TPS):** A wide open map where you control a capsule player from behind using Cinemachine cameras.
   - **Cofi Shop Map (FPS):** A close-up indoor map viewed directly through the eyes of the player.
 - **Day-Night Cycle:** Features a moving sun that changes the skybox color over time. It automatically turns on glowing windows and streetlights when it gets dark.
