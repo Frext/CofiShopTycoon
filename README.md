@@ -9,7 +9,7 @@ The project is split into two different scenes to test two different camera styl
 
 Want to skip the code and just explore the environment? 
 
-1. **[Download the Repository](https://github.com/Frext/CofiShopTycoon-repo/archive/refs/heads/main.zip)**
+1. **[Download the Repository](https://github.com/Frext/CofiShopTycoon/archive/refs/heads/main.zip)**
 
 2. Extract the ZIP file.
   
