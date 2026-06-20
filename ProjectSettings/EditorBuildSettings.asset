@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Project/_Scenes/CofiShop.unity
+    guid: c149800686ca67e479ec5f67864f69dd
   m_configObjects: {}
