@@ -1,7 +1,7 @@
 # Cofi Shop Tycoon — Environment Design & Lighting Test Project
 A 3D project made in Unity to test how to set up indoor and outdoor maps, design building layouts, and handle game lighting (both static baked lights and real-time shadows) using the Universal Render Pipeline (URP).
 
-The project is split into two different scenes to test two different camera styles: a large outdoor city map using a Third-Person (TPS) camera, and a detailed indoor coffee shop map using a First-Person (FPS) camera
+The project is split into two different scenes to test two different camera styles: a large outdoor city map using a Third-Person (TPS) camera, and a detailed indoor cofi shop map using a First-Person (FPS) camera.
 
 ---
 
@@ -11,11 +11,11 @@ Want to skip the code and just explore the environment?
 
 1. **[Download the Repository](https://github.com/Frext/CofiShopTycoon-repo/archive/refs/heads/main.zip)**
 
-3. Extract the ZIP file.
+2. Extract the ZIP file.
   
-5. **To test the Outdoor City (TPS):** Navigate to the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
+3. **To test the Outdoor City (TPS):** Navigate to the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
 
-7. **To test the Indoor Coffee Shop (FPS):** Navigate to the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
+4. **To test the Indoor Cofi Shop (FPS):** Navigate to the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
 
 ---
 
@@ -69,19 +69,24 @@ Want to skip the code and just explore the environment?
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/e6148738-b0ab-454a-8d79-aaa07bfa1055" width="500" alt="Middle Street"/> | <img src="https://github.com/user-attachments/assets/5994587f-d6fc-44e2-b5e4-ed31a7b7555e" width="500" alt="Residential Grid"/> |
 
-| Third-Person View 1  | Third-Person View 2 |
+| Third-Person View 1 | Third-Person View 2 |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/f65b1e3b-d246-4d46-9afe-340ee2ddc927" width="500" alt="Third-Person View 1"/> | <img src="https://github.com/user-attachments/assets/7a65fcb6-f275-4fa8-82e9-cef47bd3b45e" width="500" alt="Third-Person View 2"/> |
 
-### ☕ Indoor Coffee Shop (FPS Scene)
+### ☕ Indoor Cofi Shop (FPS Scene)
 
-| Main Street View (Day) | Main Street View (Night) |
+| Kitchen | Pastry Bar |
 |:---:|:---:|
-| <img src="" width="500" alt=""/> | <img src="" width="500" alt=""/> |
+| <img src="https://github.com/user-attachments/assets/6202ecca-0e5f-41c8-b619-c10fc24d238f" width="500" alt="Kitchen"/> | <img src="https://github.com/user-attachments/assets/2011f0bd-8270-4266-882d-59836d2a4320" width="500" alt="Pastry Bar"/> |
 
-| Central Park Pathway (Night) | Third-Person Controller Intersection Scene |
+
+| Baking & Prep Station | Glass Display Cases |
 |:---:|:---:|
-| <img src="" width="500" alt=""/> | <img src="" width="500" alt=""/> |
+| <img src="https://github.com/user-attachments/assets/ddba58f2-a2ba-4c2d-a0c9-80f933ec09c5" width="500" alt="Baking & Prep Station"/> | <img src="https://github.com/user-attachments/assets/93a7b6a4-11d4-4c92-a9b7-e73c805ad15c" width="500" alt="Glass Display Cases"/> |
+
+| Dining Layout View 1 | Dining Layout View 2 |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/ff98fcf7-5fcc-46ab-a0b1-6f6a47687800" width="500" alt="Dining Layout View 1"/> | <img src="https://github.com/user-attachments/assets/42faacff-c8a0-49b5-9400-98c89b92eb62" width="500" alt="Dining Layout View 2"/> |
 
 ---
 
@@ -91,7 +96,7 @@ Want to skip the code and just explore the environment?
 - **URP Optimization:** Uses Unity's Universal Render Pipeline features like Ambient Occlusion (better contact shadows) and Post-Processing profiles to make the game look smooth and run well.
 - **Two Unique Maps & Perspectives:**
   - **City Map (TPS):** A wide open map where you control a capsule player from behind using Cinemachine cameras.
-  - **Coffee Shop Map (FPS):** A close-up indoor map viewed directly through the eyes of the player.
+  - **Cofi Shop Map (FPS):** A close-up indoor map viewed directly through the eyes of the player.
 - **Day-Night Cycle:** Features a moving sun that changes the skybox color over time. It automatically turns on glowing windows and streetlights when it gets dark.
 - **Organized Asset Placement:** Every piece of the map follows a strict naming system so files stay easy to find and reuse:
   - `floor_roadWithLineDashed_16m`
