@@ -33,13 +33,29 @@ Want to skip the code and just explore the environment?
 
 ### 🌆 Outdoor City Environment (TPS Scene)
 
-#### Daytime City
+#### ☀️ Daytime City
 
-| Daytime Aerial Overview | Nighttime Aerial Overview |
+| Aerial View | City View 1 |
 |:---:|:---:|
-| <img src="" width="500" alt=""/> | <img src="" width="500" alt=""/> |
+| <img src="https://github.com/user-attachments/assets/f8ab61b5-423c-41c0-9fb2-6248e3b4ee1f" width="500" alt="Aerial View"/> | <img src="https://github.com/user-attachments/assets/47768c18-0aaf-43cb-8732-4063443f9bb0" width="500" alt="City View 1"/> |
 
-#### Nighttime City
+| City View 2 | Hospital |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/9ca86cef-01f2-473e-bf09-7e7628ea192a" width="500" alt="City View 2"/> | <img src="https://github.com/user-attachments/assets/a23d8f91-5058-43c6-b021-67ad113f124d" width="500" alt="Hospital"/> |
+
+| Gas Station | Central Park |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/b770ebd4-7023-4b54-a332-7b9761a9c509" width="500" alt="Gas Station"/> | <img src="https://github.com/user-attachments/assets/18bddb48-8aa5-4445-b5da-762b20ce90c9" width="500" alt="Central Park"/> |
+
+| Residential Grid View 1 | Residential Grid View 2 |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/5dcc8a8d-4958-4861-ad6f-3ffd7ac809e9" width="500" alt="Residential Grid View 1"/> | <img src="https://github.com/user-attachments/assets/ed502f30-2b2d-404f-a06d-e39dcd4c3971" width="500" alt="Residential Grid View 2"/> |
+
+| Middle Street | Third-Person View |
+|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/1b903756-e721-41b3-8b15-f260afb636e7" width="500" alt="Middle Street"/> | <img src="https://github.com/user-attachments/assets/815c2c21-3f33-4d95-ac08-1c7c991c61cb" width="500" alt="Third-Person View"/> |
+
+#### 🌙 Nighttime City
 
 | Central Residential Grid (Day) | Central Residential Grid (Night) |
 |:---:|:---:|
