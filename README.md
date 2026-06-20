@@ -13,9 +13,9 @@ Want to skip the code and just explore the environment?
 
 2. Extract the ZIP file.
   
-3. **To test the Outdoor City (TPS):** Navigate to the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
+3. To test the **Outdoor City (TPS):** Navigate to the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
 
-4. **To test the Indoor Cofi Shop (FPS):** Navigate to the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
+4. To test the **Indoor Cofi Shop (FPS):** Navigate to the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
 
 ---
 
