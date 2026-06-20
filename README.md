@@ -72,8 +72,8 @@ Want to skip the code and explore the environment?
 
 * **Engine:** Unity (2021.3.9f1)
 * **Scripting Language:** C#
+* * **Graphics Pipeline:** Universal Render Pipeline (URP)
 * **Camera System:** Cinemachine
-* **Graphics Pipeline:** Universal Render Pipeline (URP)
 * **Assets:** [City](https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224), [Coffee Shop](https://assetstore.unity.com/packages/3d/props/coffeeshop-starter-pack-160914), [Table & Chair](https://assetstore.unity.com/packages/3d/props/barprops-137130)
 
 ---
