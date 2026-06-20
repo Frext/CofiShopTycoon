@@ -1,26 +1,21 @@
-This is a project i developed to test static & dynamic lighting, environment design, interior design, terrain and URP in Unity.
+# Cofi Shop Tycoon — Environment Design & Lighting Test Project
+A 3D project made in Unity to test how to set up indoor and outdoor maps, design building layouts, and handle game lighting (both static baked lights and real-time shadows) using the Universal Render Pipeline (URP).
 
-I created a city using assets such as road, grass path, sidewalks, buildings, street lights, vendors, car parks.
-I used a naming convention for prefabs such as "floor_grassPath2", "building_apartmentBuilding10", "floor_roadWithLineDashed_16m".
-
-# Environment Design & Lighting Test Project
-A 3D sandbox environment designed to test static & dynamic lighting setup, environmental modular layout, terrain structures, and Universal Render Pipeline (URP) optimization in Unity. 
-
-The project features multiple experimental scenes, separating First-Person Perspective (FPS) and Third-Person Perspective (TPS) systems across individual scenes, alongside integrated Day-Night cycles and clean prefab structural organization.
+The project is split into two different scenes to test two different camera styles: a large outdoor city map using a Third-Person (TPS) camera, and a detailed indoor coffee shop map using a First-Person (FPS) camera
 
 ---
 
 ## 🚀 Quick Start
 
-Want to skip the code and explore the environment? 
+Want to skip the code and just explore the environment? 
 
 1. **[Download the Repository](https://github.com/Frext/CofiShopTycoon-repo/archive/refs/heads/main.zip)**
 
 3. Extract the ZIP file.
+  
+5. **To test the Outdoor City (TPS):** Navigate to the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
 
-4. For **outdoor** environment which uses **Third-Person Perspective (TPS)**, open the **`BuildWindows/City`** folder and run the game executable named **`Cofi Shop Tycoon.exe`**.
-
-6. For **indoor** environment which uses **First-Person Perspective (FPS)**, open the **`BuildWindows/CofiShop`** folder and run the game executable named **`Cofi Shop Tycoon.exe`**.
+7. **To test the Indoor Coffee Shop (FPS):** Navigate to the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
 
 ---
 
@@ -36,45 +31,56 @@ Want to skip the code and explore the environment?
 
 ## 📸 Screenshots
 
+### 🌆 Outdoor City Environment (TPS Scene)
+
+#### Daytime City
+
 | Daytime Aerial Overview | Nighttime Aerial Overview |
 |:---:|:---:|
-| <img src="Screenshot 2026-06-20 114607.png" width="100%" alt="Daytime Aerial Overview"/> | <img src="Screenshot 2026-06-20 115401.png" width="100%" alt="Nighttime Aerial Overview"/> |
+| <img src="" width="500" alt=""/> | <img src="" width="500" alt=""/> |
+
+#### Nighttime City
 
 | Central Residential Grid (Day) | Central Residential Grid (Night) |
 |:---:|:---:|
-| <img src="Screenshot 2026-06-20 114838.jpg" width="100%" alt="Central Residential Grid Day"/> | <img src="Screenshot 2026-06-20 115325.jpg" width="100%" alt="Central Residential Grid Night"/> |
+| <img src="" width="500" alt=""/> | <img src="" width="500" alt=""/> |
+
+### ☕ Indoor Coffee Shop (FPS Scene)
 
 | Main Street View (Day) | Main Street View (Night) |
 |:---:|:---:|
-| <img src="Screenshot 2026-06-20 114930.jpg" width="100%" alt="Main Street View Day"/> | <img src="Screenshot 2026-06-20 115313.jpg" width="100%" alt="Main Street View Night"/> |
+| <img src="" width="500" alt=""/> | <img src="" width="500" alt=""/> |
 
 | Central Park Pathway (Night) | Third-Person Controller Intersection Scene |
 |:---:|:---:|
-| <img src="Screenshot 2026-06-20 115239.jpg" width="100%" alt="Central Park Pathway"/> | <img src="Screenshot 2026-06-20 115535.png" width="100%" alt="Third-Person Controller Intersection Scene"/> |
+| <img src="" width="500" alt=""/> | <img src="" width="500" alt=""/> |
 
 ---
 
-## 🛠️ Project Core Systems
+## 🛠️ Main Features
 
-- **Static & Dynamic Lighting:** Fully baked lightmaps for buildings and static environmental floors alongside dynamic Realtime shadows for streetlamps, traffic signals, and moving entities under a modular sky box.
-- **URP Optimization:** Leverages Universal Render Pipeline settings including optimized Render Features, Ambient Occlusion, and post-processing profiles suited for seamless transitions.
-- **Scene-Based Architecture:** Perspectives are built into separate design matrices:
-  - **FPS Scene:** First-Person exploration focusing on detailed ground-level ambient structures.
-  - **TPS Scene:** Third-Person structural layout featuring Cinemachine integration around a tracking capsule entity.
-- **Day-Night Cycle:** Implemented continuous directional light rotation synced with skybox material parameter blends and real-time emission mapping on building windows and street fixtures.
-- **Modular Asset Design:** Follows strict prefab naming architecture for clear resource tracking:
-  - `floor_grassPath2` / `floor_roadWithLineDashed_16m`
+- **Static & Dynamic Lighting:** Buildings and roads use pre-calculated (baked) lightmaps to save performance, while streetlights, traffic lights, and moving players cast real-time shadows.
+- **URP Optimization:** Uses Unity's Universal Render Pipeline features like Ambient Occlusion (better contact shadows) and Post-Processing profiles to make the game look smooth and run well.
+- **Two Unique Maps & Perspectives:**
+  - **City Map (TPS):** A wide open map where you control a capsule player from behind using Cinemachine cameras.
+  - **Coffee Shop Map (FPS):** A close-up indoor map viewed directly through the eyes of the player.
+- **Day-Night Cycle:** Features a moving sun that changes the skybox color over time. It automatically turns on glowing windows and streetlights when it gets dark.
+- **Organized Asset Placement:** Every piece of the map follows a strict naming system so files stay easy to find and reuse:
+  - `floor_roadWithLineDashed_16m`
   - `building_apartmentBuilding10`
 
 ---
 
 ## ⚙️ Built With
 
-* **Engine:** Unity (2021.3.9f1)
+* **Game Engine:** Unity (2021.3.9f1)
 * **Scripting Language:** C#
-* * **Graphics Pipeline:** Universal Render Pipeline (URP)
+* **Graphics Pipeline:** Universal Render Pipeline (URP)
 * **Camera System:** Cinemachine
-* **Assets:** [City](https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224), [Coffee Shop](https://assetstore.unity.com/packages/3d/props/coffeeshop-starter-pack-160914), [Table & Chair](https://assetstore.unity.com/packages/3d/props/barprops-137130)
+* **Assets Used:**
+  * [City Package](https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224)
+  * [CoffeeShop Starter Pack](https://assetstore.unity.com/packages/3d/props/coffeeshop-starter-pack-160914)
+  * [Bar Props Pack](https://assetstore.unity.com/packages/3d/props/barprops-137130)
 
 ---
 
