@@ -19,8 +19,8 @@ Want to skip the code and just explore the environment?
 
 1. **[Download the Repository](https://github.com/Frext/cofi-shop-tycoon/archive/refs/heads/main.zip)**
 2. Extract the ZIP file.
-3. To test the **Outdoor City (TPS):** Navigate to the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
-4. To test the **Indoor Cofi Shop (FPS):** Navigate to the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
+3. To test the **Outdoor City (TPS):** Open the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
+4. To test the **Indoor Cofi Shop (FPS):** Open the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
 
 ---
 
