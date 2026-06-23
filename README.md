@@ -2,7 +2,8 @@
 
 [![Unity Version](https://img.shields.io/badge/Unity-2021.3.9f1-blue.svg?style=flat&logo=unity)](https://unity.com/)
 [![Language](https://img.shields.io/badge/Language-C%23-green.svg?style=flat&logo=c-sharp)](https://learn.microsoft.com/en-us/dotnet/csharp/)
-[![Render Pipeline](https://img.shields.io/badge/Pipeline-URP-orange.svg?style=flat)](https://docs.unity3d.com/6000.4/Documentation/Manual/urp/urp-introduction.html)
+[![Platform](https://img.shields.io/badge/Platform-Windows-orange?logo=windows)](https://www.microsoft.com/windows/)
+[![Render Pipeline](https://img.shields.io/badge/Pipeline-URP-7F52FF.svg?style=flat)](https://docs.unity3d.com/6000.4/Documentation/Manual/urp/urp-introduction.html)
 
 A Unity 3D project to explore **environment design**, and **mixed-lighting (both static baked lights and real-time shadows)** using the **Universal Render Pipeline (URP)**.
 
@@ -16,12 +17,9 @@ The project is split into two different scenes to test two different camera styl
 
 Want to skip the code and just explore the environment? 
 
-1. **[Download the Repository](https://github.com/Frext/CofiShopTycoon/archive/refs/heads/main.zip)**
-
+1. **[Download the Repository](https://github.com/Frext/cofi-shop-tycoon/archive/refs/heads/main.zip)**
 2. Extract the ZIP file.
-  
 3. To test the **Outdoor City (TPS):** Navigate to the `BuildWindows/City` folder and launch **`Cofi Shop Tycoon.exe`**.
-
 4. To test the **Indoor Cofi Shop (FPS):** Navigate to the `BuildWindows/CofiShop` folder and launch **`Cofi Shop Tycoon.exe`**.
 
 ---
